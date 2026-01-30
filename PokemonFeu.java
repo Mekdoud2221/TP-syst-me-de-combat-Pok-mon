@@ -6,7 +6,8 @@ public class PokemonFeu extends Pokemon {
 
     @Override
     public void attaquer(Pokemon p) {
-
+        
+        
         if (p == null) {
             throw new IllegalArgumentException("Le Pokémon cible n'existe pas");
         }
